@@ -1,0 +1,64 @@
+body {
+  background: url("../images/pool.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.corner-logo {
+  display: block;
+  max-width:50px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.center {
+  display: flex;
+}
+
+.center-logo{
+   width: 100%;
+   padding: 400px;
+
+}
+
+.nav {
+  list-style: none;
+  float: right;
+}
+
+.nav li {
+  display: inline;
+  text-decoration: none;
+}
+
+.nav li a {
+  font-family: 'Oxygen', sans-serif;
+  text-decoration: none;
+  color: #6F4E37
+}
+
+.nav a.no-btn {
+  margin: 8px 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: 2px solid #6F4E37;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+
+p {
+  font-family: 'Gruppo', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-top: -25px;
+
+}
